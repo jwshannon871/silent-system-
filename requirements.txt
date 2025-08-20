@@ -1,1 +1,14 @@
-flask
+flask[tool.poetry]
+name = "your-app-name"
+version = "0.1.0"
+description = ""
+authors = ["You <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.3.0"  # or whatever version you need
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
