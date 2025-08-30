@@ -1,5 +1,5 @@
 flask[tool.poetry]
-name = "your-app-name"
+name == "silent system"
 version = "0.1.0"
 description = ""
 authors = ["You <you@example.com>"]
